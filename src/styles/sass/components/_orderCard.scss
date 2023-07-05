@@ -1,0 +1,99 @@
+.card-container{
+  width: 90%;
+  max-width: 380px;
+  min-width: 337px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+
+  h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--color-dark-blue);
+  }
+
+  p{
+    font-size: .9rem;
+    color: var(--color-desaturated-blue);
+  }
+}
+
+.card-body{
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-body-title,
+.card-body-paragraph{
+  text-align: center;
+}
+
+.card-body-title{
+  margin-bottom: 1rem;
+}
+
+.plan-selection-container{
+  background-color: var(--color-very-pale-blue);
+  border-radius: var(--border-radius-s);
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-btn{
+  color: var(--color-bright-blue);
+  font-weight: 900;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.change-btn:hover{
+  color: var(--color-very-bright-blue);
+  text-decoration: none;
+}
+
+.plan-info{
+  display: flex;
+  gap: 1rem;
+}
+
+.plan-info-text-container h1{
+  font-size: .9rem;
+  font-weight: 900;
+}
+
+.plan-info-img-container{
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proceed-btn{
+  background-color: var(--color-bright-blue);
+  color: var(--color-very-pale-blue);
+  border-radius: var(--border-radius-s);
+  padding: .7rem 0;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.proceed-btn:hover{
+  background-color: var(--color-very-bright-blue);
+}
+
+.cancel-btn{
+  font-weight: 700;
+  color: var(--color-desaturated-blue);
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.cancel-btn:hover{
+  color: var(--color-dark-blue);
+}
+

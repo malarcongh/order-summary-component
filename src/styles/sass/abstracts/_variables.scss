@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root{
+  //fonts
+  --primary-font: 'Red Hat Display', sans-serif;
+  --main-font-size: 16px;
+
+  //colors
+  --color-very-pale-blue: hsl(225, 100%, 98%);
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+  --color-very-bright-blue: hsl(250, 65%, 65%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-dark-blue: hsl(223, 47%, 23%);
+
+  //border-radius
+  --borde-radius-xl: 1.25rem;
+  --border-radius-l: 1rem;
+  --border-radius-m: .75rem;
+  --border-radius-s: .5rem;
+}
